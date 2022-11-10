@@ -1,0 +1,91 @@
+/*
+*    || |  ||     ////  /||\  |\ /|
+*    || |__||    ||    ||  || | /||
+* || || |  ||    ||    ||  || |  ||
+*  \\|| |  || ||  \\\\  \||/  |  ||
+*/
+
+
+/*
+* Made for https://jahidhussain.com
+* Website   :   Version 03
+* Designer  :   the_activated_carbon
+* Owner     :   Jahid Hussain
+*/
+
+
+
+
+/* video */
+#enroll video,
+#hero video,
+#service video {
+    -o-object-fit: cover;
+       object-fit: cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.5;
+    z-index: -2;
+    -webkit-filter: brightness(50%) contrast(130%);
+            filter: brightness(50%) contrast(130%);
+}
+
+
+
+#service { position: relative; overflow: hidden; }
+
+
+/* boxes */
+#boxes video {
+    -o-object-fit: cover;
+       object-fit: cover;
+    position: absolute;
+    background-color: black;
+    -webkit-filter: brightness(40%);
+            filter: brightness(40%);
+    z-index: 0;
+}
+#boxes text { z-index: 10; }
+
+
+/* Academy */
+.accordion-button:not(.collapsed) {
+    color: inherit;
+    background-color: #ffc107;
+}
+.accordion-button:focus {
+    -webkit-box-shadow: inherit;
+            box-shadow: inherit;
+}
+.accordion-button:active { background-color: #ffc107; }
+
+#enroll {
+    background-image: url(../img/Academy/enroll.webp);
+    background-repeat: no-repeat;
+}
+.form-control:focus {
+    border-color: #FFC107;
+    -webkit-box-shadow: 0 0 0 0.2rem #FFC10740;
+            box-shadow: 0 0 0 0.2rem #FFC10740;
+}
+/* Radio */
+.form-check input:active,
+.form-check input:checked {
+    background-color: #FFC107;
+    border-color: #FFC107;
+    -webkit-box-shadow: 0 0 0 0.2rem #FFC10740;
+            box-shadow: 0 0 0 0.2rem #FFC10740;
+}
+
+
+/* Social Media */
+.bi { color: black; }
+.hov-tw:hover { color: #1DA1F2; }
+.hov-ig:hover { color: #8a3ab9; }
+.hov-yt:hover { color: #FF0000; }
+.hov-ld:hover { color: #0072b1; }
+.hov-fb:hover { color: #4267B2; }
+
